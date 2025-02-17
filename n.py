@@ -2508,6 +2508,10 @@
 import os
 os.system("pip install plotly")
 import plotly.express as px
+import sys
+sys.path.append("/home/appuser/.local/lib/python3.12/site-packages")
+import plotly.express as px
+
 
 import streamlit as st
 import pandas as pd
