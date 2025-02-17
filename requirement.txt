@@ -3,3 +3,5 @@ pandas
 numpy
 plotly
 
+pip install plotly
+python -c "import plotly.express as px; print('Plotly installed successfully')"
